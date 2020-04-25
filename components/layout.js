@@ -31,7 +31,7 @@ export default function Layout({ children, home }) {
             className={`${styles.headerHomeImage} ${utilStyles.bordercircle}`}
             alt={name}
           />
-          <h1 className={utilStyles.heading2X1}>{name}</h1>
+          <h1 className={utilStyles.heading2Xl}>{name}</h1>
         </div>
       ) : (
         <div>
